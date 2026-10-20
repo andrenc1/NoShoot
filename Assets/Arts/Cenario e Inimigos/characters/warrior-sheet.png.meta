@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 90b2c23b5a71b674fbcb6fd639680f91
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6294355843834210437
+    second: warrior-sheet_0
+  - first:
+      213: -4893175918163570315
+    second: warrior-sheet_1
+  - first:
+      213: -2354817459213652626
+    second: warrior-sheet_2
+  - first:
+      213: -7655421610374486765
+    second: warrior-sheet_3
+  - first:
+      213: 7785822766527561197
+    second: warrior-sheet_4
+  - first:
+      213: -1940905970432074092
+    second: warrior-sheet_5
+  - first:
+      213: 4930394318069089448
+    second: warrior-sheet_6
+  - first:
+      213: -890017530351654311
+    second: warrior-sheet_7
+  - first:
+      213: -4089418788529767561
+    second: warrior-sheet_8
+  - first:
+      213: -468768535037348472
+    second: warrior-sheet_9
+  - first:
+      213: 3654375096697562548
+    second: warrior-sheet_10
+  - first:
+      213: -6212816801870347681
+    second: warrior-sheet_11
+  - first:
+      213: 1543355126254823010
+    second: warrior-sheet_12
+  - first:
+      213: -6979622123211823772
+    second: warrior-sheet_13
+  - first:
+      213: 7256624829640494061
+    second: warrior-sheet_14
+  - first:
+      213: -770749109456014243
+    second: warrior-sheet_15
+  - first:
+      213: -9091190860282534073
+    second: warrior-sheet_16
+  - first:
+      213: 3604940068285085560
+    second: warrior-sheet_17
+  - first:
+      213: -3454961879351970674
+    second: warrior-sheet_18
+  - first:
+      213: 89964727239415619
+    second: warrior-sheet_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: warrior-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 203
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b779b5e75b4f5a8a0800000000000000
+      internalID: -6294355843834210437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 204
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5715d567d62f71cb0800000000000000
+      internalID: -4893175918163570315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 204
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6daea84ff1025fd0800000000000000
+      internalID: -2354817459213652626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 204
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315a7c30b9a72c590800000000000000
+      internalID: -7655421610374486765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 156
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded360b1e8ccc0c60800000000000000
+      internalID: 7785822766527561197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 156
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e16f1ad448015e0800000000000000
+      internalID: -1940905970432074092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 156
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4cc1b82874c6440800000000000000
+      internalID: 4930394318069089448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 156
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ae48b85c506a3f0800000000000000
+      internalID: -890017530351654311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 108
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bffdb47477f37c0800000000000000
+      internalID: -4089418788529767561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 108
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885f73340899e79f0800000000000000
+      internalID: -468768535037348472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 108
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b521bae9c2f6b230800000000000000
+      internalID: 3654375096697562548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 59
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5280fd1904a7c9a0800000000000000
+      internalID: -6212816801870347681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 57
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26662be6f491b6510800000000000000
+      internalID: 1543355126254823010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 56
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465608798a6632f90800000000000000
+      internalID: -6979622123211823772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 57
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb4007d5d5b4b460800000000000000
+      internalID: 7256624829640494061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 57
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54fcefb4cfbd45f0800000000000000
+      internalID: -770749109456014243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 12
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747e49b641a95d180800000000000000
+      internalID: -9091190860282534073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 12
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87774be64e1570230800000000000000
+      internalID: 3604940068285085560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 11
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84b5b4d9728d00d0800000000000000
+      internalID: -3454961879351970674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: warrior-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 11
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3479b69517e9f3100800000000000000
+      internalID: 89964727239415619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      warrior-sheet_0: -6294355843834210437
+      warrior-sheet_1: -4893175918163570315
+      warrior-sheet_10: 3654375096697562548
+      warrior-sheet_11: -6212816801870347681
+      warrior-sheet_12: 1543355126254823010
+      warrior-sheet_13: -6979622123211823772
+      warrior-sheet_14: 7256624829640494061
+      warrior-sheet_15: -770749109456014243
+      warrior-sheet_16: -9091190860282534073
+      warrior-sheet_17: 3604940068285085560
+      warrior-sheet_18: -3454961879351970674
+      warrior-sheet_19: 89964727239415619
+      warrior-sheet_2: -2354817459213652626
+      warrior-sheet_3: -7655421610374486765
+      warrior-sheet_4: 7785822766527561197
+      warrior-sheet_5: -1940905970432074092
+      warrior-sheet_6: 4930394318069089448
+      warrior-sheet_7: -890017530351654311
+      warrior-sheet_8: -4089418788529767561
+      warrior-sheet_9: -468768535037348472
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
