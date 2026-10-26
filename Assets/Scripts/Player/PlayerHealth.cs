@@ -45,5 +45,6 @@ public class PlayerHealth : MonoBehaviour
     {
         // Handle player death (e.g., trigger game over, respawn, etc.)
         Debug.Log("Player has died.");
+        GameManager.Instance.GameOver();
     }
 }

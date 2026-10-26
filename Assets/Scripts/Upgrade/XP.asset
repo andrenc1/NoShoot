@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::UpgradeSO
   icon: {fileID: 6641893274584086609, guid: 2a3151c9e89bb654bba087e7453b365a, type: 3}
   title: Xp Legal
-  description: +20 XP
+  description: Aumenta o ganho de XP em 20%
   type: 2
-  value: 20
+  value: 0.2
   TargetWeapon: {fileID: 0}

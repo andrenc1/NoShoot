@@ -47,7 +47,7 @@ public class EnemyHealth : MonoBehaviour
 
 
 
-        StartCoroutine(FlashCoroutine());
+        flashCoroutine = StartCoroutine(FlashCoroutine());
 
         if (currentLife <= 0)
         {
@@ -68,7 +68,9 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
         {
-            Instantiate(GameManager.Instance.XPOrb, transform.position, Quaternion.identity);
+        GameManager.Instance.EnemyCount();
+
+        Instantiate(GameManager.Instance.XPOrb, transform.position, Quaternion.identity);
         GameObject effect = Instantiate(dieEffect, transform.position, Quaternion.identity);
         Destroy(effect, 2f);
         Debug.Log("Enemy died!");

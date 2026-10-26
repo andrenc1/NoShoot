@@ -30,7 +30,7 @@ public class UpgradeSlot : MonoBehaviour
 
     void OnClick()
     {
-        if (current != null)
+        if (current == null)
         {
             return;
         }

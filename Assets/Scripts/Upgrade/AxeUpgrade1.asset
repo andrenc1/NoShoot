@@ -16,5 +16,5 @@ MonoBehaviour:
   title: Axe Damage
   description: Aumenta o dano do Machado em 10%
   type: 0
-  value: 10
+  value: 0.1
   TargetWeapon: {fileID: 11400000, guid: c9bd414d3571b5544a6e6e23dad25fd5, type: 2}
