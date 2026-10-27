@@ -45,8 +45,8 @@ MonoBehaviour:
           rid: 579298944020119741
         BlackboardGroupReferences: []
         Root:
-          rid: 579299011811868773
-        m_VersionTimestamp: 639146963880907577
+          rid: 8333595074908389377
+        m_VersionTimestamp: 639286921610296389
     - rid: 579298944020119741
       type: {class: BlackboardReference, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
@@ -75,7 +75,7 @@ MonoBehaviour:
           m_Value1: 4011792157903771435
         Name: Speed
         m_Value: 0
-    - rid: 579299011811868773
+    - rid: 8333595074908389377
       type: {class: Start, ns: Unity.Behavior, asm: Unity.Behavior}
       data:
         ID:
@@ -86,10 +86,10 @@ MonoBehaviour:
         m_Parent:
           rid: -2
         m_Child:
-          rid: 579299011811868774
+          rid: 8333595074908389378
         Repeat: 1
         AllowMultipleRepeatsPerTick: 0
-    - rid: 579299011811868774
+    - rid: 8333595074908389378
       type: {class: SeekPlayerAction, ns: , asm: Assembly-CSharp}
       data:
         ID:
@@ -98,7 +98,7 @@ MonoBehaviour:
         Graph:
           rid: 579298944020119740
         m_Parent:
-          rid: 579299011811868773
+          rid: 8333595074908389377
         Speed:
           rid: 579299011811868767
 --- !u!114 &11400000
@@ -118,8 +118,8 @@ MonoBehaviour:
   m_Nodes:
   - rid: 579298944020119745
   - rid: 579299011811868749
-  m_VersionTimestamp: 639146963880907577
-  m_SerializedVersion: 2
+  m_VersionTimestamp: 639286921610296389
+  m_SerializedVersion: 3
   m_DebugInfo: {fileID: -8553297401042960469}
   m_RuntimeGraph: {fileID: -4461324136582491749}
   AssetID:
@@ -132,8 +132,7 @@ MonoBehaviour:
   m_NodeModelsInfo:
   - Name: On Start
     Story: 
-    RuntimeTypeString: Unity.Behavior.Start, Unity.Behavior, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    RuntimeTypeString: Unity.Behavior.Start, Unity.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     RuntimeTypeID:
       m_Value0: 3335272451348827663
       m_Value1: 11549843281177505721
@@ -142,16 +141,14 @@ MonoBehaviour:
     IsPlaceholder: 0
   - Name: Seek Player
     Story: 'Agent seeks player at [speed]'
-    RuntimeTypeString: SeekPlayerAction, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
+    RuntimeTypeString: SeekPlayerAction, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
     RuntimeTypeID:
       m_Value0: 8111505113353501287
       m_Value1: 1591117659826542449
     Variables:
     - Name: Speed
       Type:
-        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
       Tooltip: 
     NamedChildren: []
     IsPlaceholder: 0
@@ -163,6 +160,8 @@ MonoBehaviour:
   m_BlackboardMissingManagedRef: 0
   m_GraphMissingManagedRef: 0
   m_HasMissingTypeInManagedRef: 0
+  m_EnumDependencyCache:
+    Entries: []
   references:
     version: 2
     RefIds:
@@ -177,8 +176,7 @@ MonoBehaviour:
         PortModels:
         - rid: 579298944020119746
         NodeType:
-          m_SerializableType: Unity.Behavior.Start, Unity.Behavior, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_SerializableType: Unity.Behavior.Start, Unity.Behavior, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         NodeTypeID:
           m_Value0: 3335272451348827663
           m_Value1: 11549843281177505721
@@ -207,8 +205,7 @@ MonoBehaviour:
         - rid: 579299011811868750
         - rid: 579299011811868751
         NodeType:
-          m_SerializableType: SeekPlayerAction, Assembly-CSharp, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_SerializableType: SeekPlayerAction, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         NodeTypeID:
           m_Value0: 8111505113353501287
           m_Value1: 1591117659826542449
@@ -238,8 +235,7 @@ MonoBehaviour:
       data:
         FieldName: Speed
         Type:
-          m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-            PublicKeyToken=b77a5c561934e089
+          m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
         LocalValue:
           rid: 579299011811868757
         LinkedVariable:

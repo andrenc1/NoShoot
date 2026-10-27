@@ -7,13 +7,21 @@ public class GameManager : MonoBehaviour
     public GameObject XPOrb;
 
     [Header("Timer")]
-    public float matchDuration = 600f;
+    public float matchDuration;
 
     [Header("Game Over")]
     public GameObject gameOverCanvas;
     public TextMeshProUGUI elapsedTimeText;
     public TextMeshProUGUI levelText;
     public TextMeshProUGUI enemiesText;
+    public GameObject gameOverPanel;
+    public GameObject resultsPanel;
+
+    [Header("Score")]
+    public int pointsPerKill;
+    public int pointsPerSecond;
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI titleText;
 
     private int enemiesCount;
     private float elapsedTime;
@@ -25,29 +33,21 @@ public class GameManager : MonoBehaviour
     {
         Instance = this;
         Time.timeScale = 1f;
+        gameOverCanvas.SetActive(false);
     }
 
     void Update()
     {
         if (finished) return;
         elapsedTime += Time.deltaTime;
+
         if (elapsedTime >= matchDuration)
         {
-            finished = true;
-            Win();
+            elapsedTime = matchDuration;
+            EndRun(true);
         }
     }
 
-    void Win()
-    {
-        Debug.Log("You Win!");
-    }
-
-    public void RestartTimer()
-    {
-        elapsedTime = 0f;
-        finished = false;
-    }
 
     public string GetElapsedTime()
     {
@@ -61,18 +61,35 @@ public class GameManager : MonoBehaviour
     public void EnemyCount()
     {
         enemiesCount++;
+
     }
+
+    public int Kills => enemiesCount;
+    public int SurvivedSeconds => Mathf.FloorToInt(elapsedTime);
+    public int Score => Kills * pointsPerKill + SurvivedSeconds * pointsPerSecond;
 
     public void GameOver()
     {
+        EndRun(false);
+    }
+
+    void EndRun(bool won)
+    {
         if (finished) return;
         finished = true;
-
-        gameOverCanvas.SetActive(true);
         Time.timeScale = 0f;
+
+        titleText.text = won ? "VOCÊ VENCEU!" : "GAME OVER";
         elapsedTimeText.text = GetElapsedTime();
         levelText.text = PlayerController.Instance.GetComponent<PlayerXP>().level.ToString();
-        enemiesText.text = enemiesCount.ToString();
+        enemiesText.text = Kills.ToString();
+        scoreText.text = Score.ToString();
+
+        gameOverCanvas.SetActive(true);
+        gameOverPanel.SetActive(true);
+        resultsPanel.SetActive(false);
+
+        Debug.Log($"Fim da partida | venceu={won} | kills={Kills} | segundos={SurvivedSeconds} | score={Score}");
     }
 
     public void RestartGame()
