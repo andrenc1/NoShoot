@@ -103,4 +103,4 @@ Everything below was built on my own after the course:
 ## Credits
 
 - Base course and art assets: **"Crie seus Jogos"** by CSJ Digital
-- Additional code and features: [André Noro Crivellenti](https://github.com/andrenc1)
+- Additional code and features: [André Noro](https://github.com/andrenc1)
