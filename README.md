@@ -86,7 +86,21 @@ GameManager ──(timer = 10:00)──► win
 - [ ] More weapons and enemy types
 - [ ] Difficulty that scales the number of enemies per wave over time
 
+## About this project
+
+The project started from the **"Crie seus Jogos"** course by **CSJ Digital**. The course provided the art assets and the base of the game: camera, map, player movement, enemy AI with a behavior tree, the modular combat system, enemy spawning, health, XP and level-ups, the match timer, the upgrade system and a basic game over.
+
+Everything below was built on my own after the course:
+
+- **Bug fixes**: upgrade cards froze the game when clicked; the enemy hit flash restarted incorrectly on fast consecutive hits; percentage upgrades were configured as whole numbers (x11 damage instead of +10%).
+- **Score system**: `kills × 10 + seconds`, with the weights configurable in the Inspector.
+- **Victory**: surviving the full timer now ends the match with a win screen. Before, it only logged to the console and could block the game over screen.
+- **Single end-of-match flow** shared by win and loss, guarded against running twice.
+- **Results screen** with time, level, kills and score.
+- **Score tooltip**: hovering the **?** icon explains the rule and shows the calculation for the current run.
+- **Responsive UI** that scales with screen size.
+
 ## Credits
 
-- Code and game design: [André Noro Crivellenti](https://github.com/andrenc1)
-- Art: <!-- add the name, link and license of the asset pack used in Assets/Arts -->
+- Base course and art assets: **"Crie seus Jogos"** by CSJ Digital
+- Additional code and features: [André Noro Crivellenti](https://github.com/andrenc1)
