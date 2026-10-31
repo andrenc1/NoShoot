@@ -81,7 +81,10 @@ GameManager ──(timer = 10:00)──► win
 
 ## Roadmap
 
-- [ ] Online leaderboard: ASP.NET Core API + PostgreSQL, with server-side checks against impossible scores
+- [ ] Online leaderboard, powered by [NoShoot Leaderboard API](https://github.com/andrenc1/NoShoot-Leaderboard-API)
+  - [x] API in ASP.NET Core with a database, server-side score calculation, validation against impossible runs and automated tests
+  - [ ] Player registration with unique names
+  - [ ] Sending scores from the game and an in-game leaderboard screen
 - [ ] WebGL build playable on itch.io
 - [ ] More weapons and enemy types
 - [ ] Difficulty that scales the number of enemies per wave over time
@@ -99,6 +102,7 @@ Everything below was built on my own after the course:
 - **Results screen** with time, level, kills and score.
 - **Score tooltip**: hovering the **?** icon explains the rule and shows the calculation for the current run.
 - **Responsive UI** that scales with screen size.
+- **Online leaderboard backend** (in progress): a separate [ASP.NET Core API](https://github.com/andrenc1/NoShoot-Leaderboard-API) that stores scores, calculates them on the server and rejects impossible runs.
 
 ## Credits
 
