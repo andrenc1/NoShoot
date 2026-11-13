@@ -83,7 +83,7 @@ GameManager ──(timer = 10:00)──► win
 
 - [ ] Online leaderboard, powered by [NoShoot Leaderboard API](https://github.com/andrenc1/NoShoot-Leaderboard-API)
   - [x] API in ASP.NET Core with a database, server-side score calculation, validation against impossible runs and automated tests
-  - [ ] Player registration with unique names
+  - [x] Player registration with unique names and a per-player token
   - [ ] Sending scores from the game and an in-game leaderboard screen
 - [ ] WebGL build playable on itch.io
 - [ ] More weapons and enemy types
