@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System;
 
 public class GameManager : MonoBehaviour
 {
@@ -28,6 +29,8 @@ public class GameManager : MonoBehaviour
     private bool finished;
 
     public static GameManager Instance;
+    public event Action<bool> RunEnded;
+
 
     private void Awake()
     {
@@ -90,6 +93,8 @@ public class GameManager : MonoBehaviour
         resultsPanel.SetActive(false);
 
         Debug.Log($"Fim da partida | venceu={won} | kills={Kills} | segundos={SurvivedSeconds} | score={Score}");
+
+        RunEnded?.Invoke(won);
     }
 
     public void RestartGame()
